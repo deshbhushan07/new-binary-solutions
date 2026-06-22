@@ -233,15 +233,59 @@ function Navbar() {
         display:"flex",alignItems:"center",justifyContent:"space-between",
       }}>
         {/* Logo */}
-        <div style={{display:"flex",alignItems:"center",gap:"10px",cursor:"pointer"}} onClick={()=>scrollTo("home")}>
-          <div style={{width:38,height:38,borderRadius:"8px",background:`linear-gradient(135deg,${C.accent},${C.gold})`,display:"flex",alignItems:"center",justifyContent:"center"}}>
-            <span style={{color:C.white,fontWeight:800,fontSize:"16px"}}>NB</span>
-          </div>
-          <div>
-            <div style={{color:C.white,fontWeight:700,fontSize:"15px",lineHeight:1}}>New Binary</div>
-            <div style={{color:C.accentLt,fontSize:"11px",fontWeight:500,letterSpacing:".05em"}}>Solutions</div>
-          </div>
-        </div>
+        <div
+  style={{
+    display: "flex",
+    alignItems: "center",
+    gap: "10px",
+    cursor: "pointer",
+  }}
+  onClick={() => scrollTo("home")}
+>
+  <div
+    style={{
+      width: 38,
+      height: 38,
+      borderRadius: "8px",
+      background: `linear-gradient(135deg,${C.accent},${C.gold})`,
+      overflow: "hidden",
+      flexShrink: 0,
+    }}
+  >
+    <img
+      src="/assets/logo.jpeg"
+      alt="Logo"
+      style={{
+        width: "100%",
+        height: "100%",
+        objectFit: "contain", // or "cover"
+      }}
+    />
+  </div>
+
+  <div>
+    <div
+      style={{
+        color: C.white,
+        fontWeight: 700,
+        fontSize: "15px",
+        lineHeight: 1,
+      }}
+    >
+      New Binary
+    </div>
+    <div
+      style={{
+        color: C.accentLt,
+        fontSize: "11px",
+        fontWeight: 500,
+        letterSpacing: ".05em",
+      }}
+    >
+      Solutions
+    </div>
+  </div>
+</div>
 
         {/* Desktop Links */}
         <div className="nav-links" style={{display:"flex",gap:"32px",alignItems:"center"}}>
