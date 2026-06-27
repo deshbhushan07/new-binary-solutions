@@ -554,6 +554,15 @@ const PROJ = [
     color:C.gold,
   },
   {
+  img: "./assets/screenshotdrl.png",
+  name: "DRL Kolhapur",
+  industry: "Logistics & Transportation",
+  desc: "A custom business management application developed for Deshbhushan and Rushikesh Roadlines to simplify daily transport operations. Features trip management, vehicle records, customer management, billing, and an intuitive dashboard for efficient business workflows.",
+  tech: ["Flutter", "Firebase", "Business Management", "Dashboard"],
+  url: "",
+  color: C.teal,
+  },
+  {
     img:"./assets/screenshotsc.png",
     name:"SC Global Exports & Imports",
     industry:"International Trade",
@@ -738,6 +747,14 @@ const TESTI = [
     rating:4.5,
     ini:"GA",
     color:C.teal,
+  },
+  {
+  name: "DRL Kolhapur",
+  role: "Deshbhushan and Rushikesh Roadlines",
+  text: "New Binary Solutions developed a reliable business management app that has streamlined our daily transport operations. From trip management to record keeping, everything is now organized in one place. The app is easy to use, saves us valuable time, and has significantly improved our operational efficiency.",
+  rating: 4.5,
+  ini: "DRL",
+  color: C.teal,
   },
   {
     name:"Shri Pant Krupa Paper Board",
